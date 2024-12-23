@@ -13,7 +13,7 @@ datetime: Para manipulação de datas.
 os e re: Para operações de sistema e expressões regulares.
 Você pode instalar a biblioteca necessária usando o seguinte comando:
 
-bash
+''' bash
 
 Verify
 
@@ -23,7 +23,7 @@ Copy code
 pip install pdfplumber
 Como Usar
 Clone o repositório ou baixe o arquivo Python.
-
+'''
 Execute o script em um terminal ou prompt de comando:
 
 bash
