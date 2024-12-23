@@ -19,7 +19,9 @@ Abra um terminal e navegue até o diretório onde o script está localizado.
 
 Execute o script com o comando:
 
-```python nome_do_script.py```
+```
+python nome_do_script.py
+```
 
 Quando solicitado, informe o caminho da pasta que contém os arquivos PDF.
 
@@ -31,4 +33,17 @@ Exemplo de Uso
 Informe o caminho da pasta com os PDFs: /caminho/para/pasta
 Quantos dias antes deseja ser alertado? (padrão: 30): 15
 ```
+Saída
+O script irá listar os documentos que estão prestes a vencer ou que já estão vencidos, com a seguinte formatação:
+```
+### Documentos Perto do Vencimento ###
+documento1.pdf - ⚠️ VENCIDO há 5 dias (Vence em: 01/01/2023)
+documento2.pdf - ⚠️ PRESTES A VENCER em 10 dias (Vence em: 15/01/2023)
+```
+Se não houver documentos perto do vencimento, a seguinte mensagem será exibida:
+```
+✅ Nenhum documento está perto de vencer.
+```
 
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
