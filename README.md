@@ -1,4 +1,5 @@
 Verificador de Vencimento de Documentos PDF
+
 Este repositório contém um script em Python que verifica a data de vencimento de documentos em formato PDF. O script extrai datas de vigência de documentos e alerta o usuário sobre documentos que estão prestes a vencer ou que já estão vencidos.
 
 Funcionalidades
