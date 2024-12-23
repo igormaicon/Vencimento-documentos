@@ -4,9 +4,13 @@ Este repositório contém um script em Python que verifica a data de vencimento 
 
 Funcionalidades
 Extração de Datas: O script utiliza expressões regulares para identificar e extrair datas de vigência no formato dd/mm/yyyy à dd/mm/yyyy.
+
 Verificação de Vencimento: Analisa todos os arquivos PDF em uma pasta especificada e verifica se estão vencidos ou prestes a vencer.
+
 Alertas: Gera alertas para documentos que estão prestes a vencer dentro de um número de dias especificado pelo usuário.
+
 Pré-requisitos
+
 Para executar este script, você precisará ter o Python instalado em sua máquina, além da biblioteca pdfplumber. Você pode instalar a biblioteca necessária usando o seguinte comando:
 
 ```
