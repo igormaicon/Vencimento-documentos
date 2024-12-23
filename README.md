@@ -8,7 +8,9 @@ Alertas: Gera alertas para documentos que estão prestes a vencer dentro de um n
 Pré-requisitos
 Para executar este script, você precisará ter o Python instalado em sua máquina, além da biblioteca pdfplumber. Você pode instalar a biblioteca necessária usando o seguinte comando:
 
-```pip install pdfplumber```
+```
+pip install pdfplumber
+```
 
 Como Usar
 Clone este repositório ou baixe o arquivo do script.
